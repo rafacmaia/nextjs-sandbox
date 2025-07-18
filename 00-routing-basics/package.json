@@ -1,0 +1,21 @@
+{
+  "name": "scrimba-next-setup-exercise",
+  "version": "1.0.0",
+  "description": "Next.js project setup exercise from Scrimba",
+  "license": "ISC",
+  "author": "Rafa Maia",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^15.3.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
