@@ -1,7 +1,7 @@
 {
-  "name": "scrimba-next-setup-exercise",
+  "name": "routing-basics",
   "version": "1.0.0",
-  "description": "Next.js project setup exercise from Scrimba",
+  "description": "Next.js project setup exercise",
   "license": "ISC",
   "author": "Rafa Maia",
   "type": "commonjs",
