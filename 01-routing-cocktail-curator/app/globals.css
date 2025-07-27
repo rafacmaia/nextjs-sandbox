@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+@theme inline {
+    --font-mont: "Montserrat", sans-serif;
+    --font-mont-alt: "Montserrat Alternates", sans-serif;
+}
+
+* {
+    /*outline: red 1px solid;*/
+}
