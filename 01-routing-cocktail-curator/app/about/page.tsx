@@ -2,7 +2,7 @@ import { Martini, BottleWine, Wine } from "lucide-react";
 
 export default function AboutPage() {
   return (
-    <main className="mx-auto flex max-w-7xl flex-col items-center gap-8 px-6 py-12 text-lg md:gap-12">
+    <main className="- mx-auto flex w-full max-w-7xl flex-col items-center gap-8 px-6 py-10 pb-12 text-lg md:gap-12">
       <div className="flex w-full flex-col max-lg:items-center max-lg:space-y-4 lg:flex-row lg:justify-around">
         <img
           className="aspect-square w-full object-cover md:max-w-lg lg:max-w-3/7"

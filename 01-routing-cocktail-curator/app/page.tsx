@@ -1,7 +1,7 @@
 export default function Home() {
   return (
-    <main className="mx-auto flex flex-col-reverse items-center justify-between gap-8 px-6 py-12 md:min-h-screen md:flex-row md:justify-evenly md:gap-4">
-      <div className="flex-1 space-y-6 md:max-w-2/5">
+    <main className="mx-auto flex flex-col-reverse items-center gap-8 px-6 py-6 md:grow md:flex-row md:justify-around md:px-8 lg:justify-evenly">
+      <div className="space-y-6 md:max-w-3/7">
         <p className="hidden text-sm font-medium text-gray-600 uppercase md:block">
           The go-to place to find your perfect drink
         </p>
@@ -19,7 +19,7 @@ export default function Home() {
         </button>
       </div>
 
-      <div className="h-[580] w-full overflow-hidden rounded-full md:h-[600] md:w-[40%] lg:w-[35%]">
+      <div className="h-[54vh] w-full overflow-hidden rounded-full md:h-[600] md:w-[40%] lg:w-[35%]">
         <img
           className="h-full w-full object-cover"
           src="/cocktails2.jpg"
