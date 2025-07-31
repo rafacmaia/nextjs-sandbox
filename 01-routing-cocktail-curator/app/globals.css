@@ -1,10 +1,16 @@
 @import "tailwindcss";
 
+/*noinspection CssUnresolvedCustomProperty*/
 @theme inline {
-    --font-mont: "Montserrat", sans-serif;
-    --font-mont-alt: "Montserrat Alternates", sans-serif;
-    --font-albert: "Albert Sans", sans-serif;
-    --font-logo: "Pacifico", cursive;
+    --color-primary: var(--color-black);
+    --color-secondary: var(--color-white);
+    --color-tertiary: var(--color-gray-600);
+    --color-muted: var(--color-gray-700);
+    --color-accent: #ee8e44;
+
+    --font-header: var(--font-montserrat-alternates), sans-serif;
+    --font-body: var(--font-montserrat), sans-serif;
+    --font-logo: var(--font-pacifico), cursive;
 }
 
 * {
