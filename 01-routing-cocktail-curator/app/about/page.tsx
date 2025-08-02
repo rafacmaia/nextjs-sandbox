@@ -1,20 +1,25 @@
+import Image from "next/image";
 import { Martini, BottleWine, Wine } from "lucide-react";
 
 export default function AboutPage() {
   return (
-    <main className="- mx-auto flex w-full max-w-7xl flex-col items-center gap-8 px-6 py-10 pb-12 text-lg md:gap-12">
-      <div className="flex w-full flex-col max-lg:items-center max-lg:space-y-4 lg:flex-row lg:justify-around">
-        <img
-          className="aspect-square w-full object-cover md:max-w-lg lg:max-w-3/7"
-          src="./absurd.png"
-          alt="Illustration of a martini glass and a bottle."
-        />
+    <main className="mx-auto flex w-full max-w-7xl flex-col items-center gap-8 px-6 py-10 pb-12 text-lg sm:gap-12">
+      <div className="flex w-full flex-col items-center max-lg:items-center max-lg:space-y-4 lg:flex-row lg:justify-around lg:space-y-0 lg:space-x-12">
+        <div className="relative aspect-square w-full overflow-hidden sm:w-lg">
+          <Image
+            className="absolute inset-0 size-full object-cover"
+            src="/absurd.png"
+            width={960}
+            height={960}
+            alt="Black and white illustration of a martini glass next to a bottle."
+          />
+        </div>
 
-        <div className="flex flex-col space-y-6 md:w-lg md:text-xl">
-          <p className="md:text-md text-tertiary text-sm font-medium uppercase md:block">
+        <div className="flex flex-col space-y-6 sm:px-6 sm:text-xl md:w-xl">
+          <p className="text-tertiary text-sm font-medium uppercase sm:text-base md:block">
             About T Cocktails
           </p>
-          <h1 className="font-header text-4xl font-bold md:text-5xl">
+          <h1 className="font-header text-4xl font-bold sm:text-5xl">
             Empowering drinkers worldwide
           </h1>
           <p className="text-muted">
@@ -38,8 +43,8 @@ export default function AboutPage() {
 
       <hr className="w-screen border-t border-gray-200" />
 
-      <div className="flex w-full flex-col text-base max-md:space-y-9 md:flex-row md:gap-8 md:px-10">
-        <article className="space-y-3 md:w-xs">
+      <div className="flex w-full flex-col text-base max-sm:space-y-9 sm:flex-row sm:gap-6 sm:px-6 md:gap-8 md:px-10">
+        <article className="space-y-3 sm:w-xs">
           <h2 className="font-header text-2xl font-bold">
             <Martini className="text-tertiary mr-1 inline-block -translate-y-[2px]" />
             40+ Creations
@@ -51,8 +56,8 @@ export default function AboutPage() {
             fascism-toppling tipples.
           </p>
         </article>
-        <div className="border-tertiary mx-4 hidden h-auto border-l md:block"></div>
-        <article className="space-y-3 md:w-xs">
+        <div className="border-tertiary mx-1 hidden h-auto border-l sm:block md:mx-4"></div>
+        <article className="space-y-3 sm:w-xs">
           <h2 className="font-header text-2xl font-bold">
             <BottleWine className="text-tertiary mr-1 inline-block -translate-y-[2px]" />
             Active Community
@@ -62,8 +67,8 @@ export default function AboutPage() {
             are brought together by T's life-changing cocktails.
           </p>
         </article>
-        <div className="border-tertiary mx-4 hidden h-auto border-l md:block"></div>
-        <article className="space-y-3 md:w-xs">
+        <div className="border-tertiary mx-1 hidden h-auto border-l sm:block md:mx-4"></div>
+        <article className="space-y-3 sm:w-xs">
           <h2 className="font-header text-2xl font-bold">
             <Wine className="text-tertiary mr-1 inline-block -translate-y-[2px]" />
             Free to Enjoy
@@ -77,8 +82,8 @@ export default function AboutPage() {
 
       <hr className="w-screen border-t border-gray-200" />
 
-      <div className="flex flex-col space-y-6 md:w-2xl md:text-xl">
-        <h1 className="font-header text-4xl font-bold md:text-5xl">
+      <div className="flex flex-col space-y-6 sm:w-2xl sm:px-12 sm:text-xl">
+        <h1 className="font-header text-4xl font-bold sm:text-5xl">
           Our Vision
         </h1>
         <p className="text-muted">

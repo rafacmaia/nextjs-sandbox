@@ -27,13 +27,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="h-full">
+    <html lang="en" className="">
       <head>
         <link href="bartender2-black.svg" rel="icon" type="image/svg+xml" />
         <title>T Cocktails</title>
       </head>
       <body
-        className={`${montserrat.variable} ${montserrat_alt.variable} ${pacifico.variable} font-body bg-secondary text-primary flex h-full flex-col antialiased`}
+        className={`${montserrat.variable} ${montserrat_alt.variable} ${pacifico.variable} font-body bg-secondary text-primary flex h-full min-w-80 flex-col antialiased`}
       >
         <header className="bg-primary text-secondary h-14 w-screen">
           <nav className="flex h-full w-full items-center justify-between px-5 sm:px-10">
