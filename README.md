@@ -2,18 +2,16 @@
 
 ![Status](https://img.shields.io/badge/status-in--development-yellow)
 
-An ongoing series of exercises and mini-projects done while learning how to
-build Next.js web apps. Mostly variations on lessons from YouTube tutorials and
-Scrimba's Next.js course.
+A mini-project to learn Next.js. Inspired by [Scrimba's](https://scrimba.com)
+Next.js course.
 
-## Projects So Far 📌
+## Project 📌
 
-| Folder                        | Description                                             |
-|-------------------------------|---------------------------------------------------------|
-| `00-routing-basics`           | Basic demo setup just to check out Next.js's App router |
-| `01-routing-cocktail-curator` | Mock cocktail showcase page to learn Next.js's basics.  |
+| Folder                                   | Description                                |
+|------------------------------------------|--------------------------------------------|
+| [`cocktail-curator`](./cocktail-curator) | Cocktail showcase page to practice Next.js |
 
-## To Run a Project 🚀
+## To Run 🚀
 
 ```bash
 cd folder-name
@@ -26,9 +24,7 @@ npm run dev
 
 ## Attributions 🎨
 
-### Project 01-routing-cocktail-curator:
-
-- Home page photo
+- Landing page photo
   by [Jakub Dziubak](https://unsplash.com/@jckbck?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
   via [Unsplash](https://unsplash.com/photos/brown-beverage-with-olives-and-herb-in-rocks-glass-in-macro-photography-gj7BLlSzIFs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
 - About page illustration from <a href="https://absurd.design/">

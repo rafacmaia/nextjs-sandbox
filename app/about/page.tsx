@@ -1,16 +1,16 @@
-import Image from "next/image";
 import { Martini, BottleWine, Wine } from "lucide-react";
+import Image from "next/image";
+import heroAbout from "~/hero-about.png";
 
 export default function AboutPage() {
   return (
-    <main className="mx-auto flex w-full max-w-7xl flex-col items-center gap-8 px-6 py-10 pb-12 text-lg sm:gap-12">
+    <main className="mx-auto flex w-full max-w-7xl flex-col items-center gap-8 px-6 py-10 text-lg sm:gap-12">
       <div className="flex w-full flex-col items-center max-lg:items-center max-lg:space-y-4 lg:flex-row lg:justify-around lg:space-y-0 lg:space-x-12">
         <div className="relative aspect-square w-full overflow-hidden sm:w-lg">
           <Image
             className="absolute inset-0 size-full object-cover"
-            src="/absurd.png"
-            width={960}
-            height={960}
+            src={heroAbout}
+            priority
             alt="Black and white illustration of a martini glass next to a bottle."
           />
         </div>
