@@ -41,7 +41,7 @@ export default function AboutPage() {
         </div>
       </div>
 
-      <hr className="w-screen border-t border-gray-200" />
+      <hr className="w-dvw border-t border-gray-200" />
 
       <div className="flex w-full flex-col text-base max-sm:space-y-9 sm:flex-row sm:gap-6 sm:px-6 md:gap-8 md:px-10">
         <article className="space-y-3 sm:w-xs">
@@ -80,7 +80,7 @@ export default function AboutPage() {
         </article>
       </div>
 
-      <hr className="w-screen border-t border-gray-200" />
+      <hr className="w-dvw border-t border-gray-200" />
 
       <div className="flex flex-col space-y-6 sm:w-2xl sm:px-12 sm:text-xl">
         <h1 className="font-header text-4xl font-bold sm:text-5xl">

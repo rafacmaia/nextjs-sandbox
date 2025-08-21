@@ -1,7 +1,7 @@
 import { Montserrat_Alternates, Montserrat, Pacifico } from "next/font/google";
-import { RootLayoutProps } from "@/app/types";
-import Header from "@components/Header";
-import Footer from "@components/Footer";
+import { RootLayoutProps } from "@/types";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 import "./globals.css";
 
 const montserrat = Montserrat({
@@ -26,12 +26,12 @@ const pacifico = Pacifico({
 
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
-    <html lang="en">
+    <html lang="en" className="h-full">
       <head>
         <title>T Cocktails</title>
       </head>
       <body
-        className={`${montserrat.variable} ${montserrat_alt.variable} ${pacifico.variable} font-body bg-secondary text-primary flex min-h-dvh min-w-80 flex-col antialiased`}
+        className={`${montserrat.variable} ${montserrat_alt.variable} ${pacifico.variable} font-body bg-secondary text-primary flex min-h-dvh min-w-80 flex-col overflow-x-hidden antialiased`}
       >
         <Header />
         {children}

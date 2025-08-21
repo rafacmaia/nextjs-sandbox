@@ -4,7 +4,7 @@ import heroImage from "~/hero-home.jpg";
 
 export default function Home() {
   return (
-    <main className="flex flex-col-reverse items-center gap-6 px-6 py-6 sm:grow sm:flex-row sm:justify-around sm:gap-4 sm:px-6 lg:justify-around">
+    <main className="flex flex-col-reverse items-center gap-6 px-6 py-8 sm:h-[94vh] sm:grow sm:flex-row sm:justify-around sm:gap-4 sm:px-6 lg:justify-around">
       <div className="space-y-6 sm:max-w-[45%]">
         <p className="text-tertiary hidden text-sm font-medium uppercase md:block">
           The go-to place to find your perfect drink

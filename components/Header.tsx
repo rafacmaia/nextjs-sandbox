@@ -4,7 +4,7 @@ import logo from "~/icons/logo-shaker-white.svg";
 
 export default function Header() {
   return (
-    <header className="bg-primary text-secondary h-14 w-screen">
+    <header className="bg-primary text-secondary h-14 w-dvw">
       <nav className="flex h-full w-full items-center justify-between px-6 sm:px-10">
         <Link className="flex h-full items-center gap-4" href="/">
           <Image
