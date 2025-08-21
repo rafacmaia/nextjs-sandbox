@@ -1,6 +1,6 @@
 {
   "name": "cocktail-curator",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "description": "Mock cocktail curation service; a learning project to practice Next.js concepts",
   "author": "Zou Labs <rfpcmaia@gmail.com> (https://github.com/rafacmaia)",
